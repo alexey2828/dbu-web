@@ -1,0 +1,17 @@
+.ttnControlSelect {
+  @apply bg-gray-800 text-white font-bold;
+}
+
+.ttnPanelTool {
+  @apply h-[47px] justify-start pl-4 gap-4 items-center;
+}
+
+.ttnStatePanelTool {
+  @apply pl-1 h-[47px] items-center;
+}
+
+.ttnStatePanelTool_item {
+  @apply flex gap-4;
+}
+
+/*# sourceMappingURL=ttn.module.css.map */

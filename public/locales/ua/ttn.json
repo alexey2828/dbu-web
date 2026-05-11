@@ -1,0 +1,30 @@
+{
+  "list": "Список ТТН",
+  "statusHistory": "Історія статусу ТТН",
+  "control": {
+    "manage": "Керування",
+    "create": "Створити",
+    "edit": "Редагувати"
+  },
+  "sort": {
+    "sortByDate": "Сортувати за датою",
+    "descending": "За спаданням дати",
+    "ascending": "За зростанням дати"
+  },
+  "notifications": {
+    "selectForEdit": "Оберіть ТТН для редагування"
+  },
+  "ttnHeaders": {
+    "id": "Номер заявки",
+    "car": "Машина",
+    "date": "Дата",
+    "dispatcher": "Диспетчер",
+    "driver": "Водій",
+    "finishAdress": "Адреса доставки",
+    "finishDate": "Час доставки",
+    "idPlant": "Цех",
+    "idState": "Стан",
+    "vProduct": "Обсяг"
+  }
+}
+

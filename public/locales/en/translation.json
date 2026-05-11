@@ -1,0 +1,499 @@
+{
+  "general": {
+    "reports": "Reports",
+    "sales": "Sale of goods and services",
+    "date": "Date",
+    "time": "Time",
+    "search": "Search",
+    "create": "Create",
+    "role": "Role",
+    "save": "Save",
+    "moveTo": "Move to",
+    "display": "Display",
+    "dbu": "DBU",
+    "shortName": "Short name",
+    "developed": "Application created by LLC ASA",
+    "loading": "Loading..."
+  },
+  "departments": {
+    "sales": "Sales Department",
+    "customers": "Customers",
+    "products": "Products",
+    "dispatcher": "Dispatchers"
+  },
+  "production": {
+    "preProd": "Pre-production Department",
+    "plants": "Plants",
+    "machines": "Cars",
+    "drivers": "Drivers"
+  },
+  "tech": {
+    "techDept": "Chief Technologist Department",
+    "mixtures": "Types of Mixtures",
+    "strength": "Class, Strength",
+    "mobility": "Mobility",
+    "frost": "Frost Resistance",
+    "water": "Waterproofing",
+    "marka": "Marka",
+    "conditions": "Conditions",
+    "components": "Components",
+    "recipes": "Recipes"
+  },
+  "routes": {
+    "ordersPage": "Sales of goods and services",
+    "createEditOrder": "Order details",
+    "createOrder": "Create order",
+    "reportsPage": "Product reports",
+    "weighingReportsPage": "Weighing",
+    "carDirectory": "Car directory",
+    "driverDirectory": "Driver directory",
+    "plantsDirectory": "Plant directory",
+    "customerDirectory": "Customer directory",
+    "bsuDirectory": "Concrete mixing unit directory",
+    "silCemDirectory": "Silo directory",
+    "productDirectory": "Product directory",
+    "reportCurrentLoopDirectory": "Report directory for each cycle",
+    "reportWeightManualDirectory": "Manual report directory for each cycle",
+    "mixtureDirectory": "Mixture types directory",
+    "recCompDirectory": "BSiKR components directory",
+    "recFrostDirectory": "Recipe frost resistance directory",
+    "recMobilityDirectory": "Recipe mobility directory",
+    "recStrengthDirectory": "Recipe class, strength directory",
+    "recWatDirectory": "Recipe waterproofing directory",
+    "recipeDirectory": "Recipe directory",
+    "compDirectory": "Components directory",
+    "dispatcherDirectory": "Dispatcher directory",
+    "markaDirectory": "Marka directory",
+    "recCommentDirectory": "Conditions directory"
+  },
+  "modals": {
+    "create": "Create",
+    "apply": "Apply",
+    "clear": "Clear",
+    "close": "Close",
+    "confirmAction": "Confirm action?",
+    "confirm": "Confirm",
+    "back": "Back",
+    "saveAndClose": "Save and Close",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit"
+
+  },
+  "labels": {
+    "dateStart": "From",
+    "dateFinish": "To",
+    "idPlant": "Plant",
+    "idCustomer": "Customer",
+    "dispatcher": "Dispatcher",
+    "nameRecipe": "Recipe Name",
+    "classRecipe": "Mixture Types",
+    "vOrder": "Volume",
+    "fromObject": "To Object",
+    "toObject": "From Object",
+    "distance": "Distance",
+    "delivery": "Delivery",
+    "interval": "Interval",
+    "general": "General"
+  },
+  "placeholders": {
+    "enterPlant": "Enter plant",
+    "enterCustomer": "Enter customer",
+    "enterDispatcher": "Enter dispatcher",
+    "enterRecipe": "Enter recipe name",
+    "enterClassRecipe": "Enter mixture type",
+    "enterVolume": "Enter volume",
+    "enterDistanceTo": "Enter distance to",
+    "enterDistanceFrom": "Enter distance from",
+    "enterInterval": "Enter interval",
+    "finishAdress": "Enter final address",
+    "vProduct": "Enter volume",
+    "enterPlantCode": "Enter plant code",
+    "enterPlantName": "Enter plant name",
+    "enterComment": "Enter comment",
+    "enterBsuName": "Enter batching plant name",
+    "enterBsuCode": "Enter batching plant code",
+    "enterMixerVolume": "Enter mixer volume",
+    "enterCode": "Enter code",
+    "enterBatcher": "Enter batcher number",
+    "enterCapacity": "Enter capacity",
+    "enterName": "Enter name",
+    "enterAddress": "Enter address",
+    "enterCarNumber": "Enter number",
+    "enterRFID": "Enter RFID code",
+    "enterMaxVolume": "Enter maximum volume",
+    "enterDriverName": "Enter driver's name",
+    "enterMixtureName": "Enter full name",
+    "enterShortName": "Enter short name",
+    "enterTypeCode": "Enter code"
+  },
+  "orderTableHeaders": {
+    "idCustomer": "Customer",
+    "number": "Order Number",
+    "dispatcher": "Dispatcher",
+    "dateCreate": "Creation Date",
+    "nameRecipe": "Recipe Name",
+    "vOrder": "Volume",
+    "state": "Status",
+    "adress": "Plant"
+  },
+  "errors": {
+    "required": "Field is required",
+    "general": "Something went wrong",
+    "success": "Everything went successfully",
+    "exceededOrderVolume": "Exceeded order volume",
+    "emptyBsu": "BSU field cannot be empty",
+    "exceededCarVolume": "Exceeded car volume",
+    "requiredField": "This field is required",
+    "bothStartEndRequired": "Both start and end times must be provided",
+    "atLeastOneField": "At least one field must be filled",
+    "codeExists": "Code already exists",
+    "invalidLoginOrPassword": "Invalid login or password",
+    "invalidCode": "Invalid code"
+  },
+  "order": {
+    "vOrder": "V-total",
+    "ttnVProductSumCreated": "V-total TTN",
+    "ttnVProductSum": "V-shipped",
+    "remainingVolume": "V-remaining",
+    "orderList": "Orders list",
+    "statusHistory": "Order Status History",
+    "numberPrefix": " № GB00_"
+  },
+  "ttn": {
+    "list": "TTN List",
+    "statusHistory": "TTN Status History",
+    "control": {
+      "manage": "Manage",
+      "create": "Create",
+      "edit": "Edit"
+    },
+    "sort": {
+      "sortByDate": "Sort by date",
+      "descending": "Descending date",
+      "ascending": "Ascending date"
+    },
+    "notifications": {
+      "selectForEdit": "Select a TTN for editing"
+    },
+    "ttnHeaders": {
+      "id": "Request Number",
+      "car": "Car",
+      "date": "Date",
+      "dispatcher": "Dispatcher",
+      "driver": "Driver",
+      "finishAdress": "Delivery Address",
+      "finishDate": "Delivery Time",
+      "idPlant": "Plant",
+      "idState": "State",
+      "vProduct": "Volume"
+    }
+  },
+  "createRecipeNameModal": {
+    "title": "Create Recipe Name",
+    "strength": "Strength",
+    "marka": "Brand",
+    "mobility": "Mobility",
+    "frost": "Frost Resistance",
+    "wat": "Water Resistance",
+    "comment": "Comment"
+  },
+  "ttnEditModal": {
+    "title": "TTN for Vehicle",
+    "titleEditModal": "Edit TTN for Vehicle",
+    "dispatcher": "Dispatcher",
+    "car": "Car",
+    "driver": "Driver",
+    "idPlant": "Plant",
+    "bsu": "BSU",
+    "noBsu": "No BSU in operation",
+    "finishAdress": "Final Address",
+    "finishDate": "Delivery Time",
+    "vProduct": "Volume m³",
+    "maxVolume": "Maximum car volume"
+  },
+  "reports": {
+    "startDate": "Production Start Date",
+    "from": "From",
+    "to": "To",
+    "order": "Order",
+    "orderNumber": "Number",
+    "plant": "Plant",
+    "plantName": "Name",
+    "mixer": "Mixer Truck",
+    "driver": "Driver",
+    "carNumber": "Number",
+    "application": "Application",
+    "enterOrderNumber": "Enter order number",
+    "selectValue": "Select a value",
+    "number": "Number",
+    "name": "Name",
+    "bsu": "BSU",
+    "productTableHeaders": {
+      "dateStart": "Production Start Date",
+      "timeEnd": "Production End Date",
+      "idPlant": "Plant",
+      "idTtn": "Order Number",
+      "car": "Car",
+      "driver": "Driver",
+      "classRecipe": "Mix Types",
+      "nameRecipe": "Recipe Name",
+      "vProduct": "Product Volume, m³",
+      "loopNumber": "Number of Cycles",
+      "vLoop": "Cycle Volume, m³",
+      "recipe": "Recipe",
+      "timeStart": "Production Start Time"
+    },
+    "currentLoopCalculateHeader": {
+      "code": "Material",
+      "recipeSum": "Target Weight, kg",
+      "factSum": "Actual Weight, kg",
+      "completedProductVolume": "Actual volume of completed products",
+      "totalVProductExpected": "Specified volume of completed products"
+    },
+    "bsuBreakdown": {
+      "col1": "Column 1",
+      "col2": "Column 2",
+      "col3": "Column 3",
+      "col4": "Column 4",
+      "placeholderRow": "—"
+    },
+    "reportCar": {
+      "title": "By Car",
+      "cycle": "Cycle",
+      "vCycle": "V of cycle, m³",
+      "water": "Water",
+      "liquidChemAdditive": "LCA",
+      "filler": "Filler",
+      "cement": "Cement",
+      "targetKg": "target, kg",
+      "actualKg": "actual, kg",
+      "percentage": "%"
+    }
+  },
+  "plantsHeader": {
+    "codePlant": "Plant Code",
+    "name": "Plant Name",
+    "comment": "Comment"
+  },
+  "bsuHeader": {
+    "idPlant": "Plant",
+    "code": "Code",
+    "name": "Name",
+    "vMixer": "Mixer Volume",
+    "isWork": "Status"
+  },
+  "silCemHeader": {
+    "idBSU": "Id Bsu",
+    "code": "Code",
+    "batcher": "Batcher No.",
+    "capacity": "Capacity, t"
+  },
+  "plantsDirectory": {
+    "plants": "Plants",
+    "bsu": "BSU",
+    "silos": "Silos"
+  },
+  "plants": {
+    "create": "Create Plant",
+    "code": "Plant Code",
+    "name": "Plant Name",
+    "comment": "Comment"
+  },
+  "bsu": {
+    "create": "Create Batching Plant",
+    "idPlant": "Plant",
+    "name": "Name",
+    "code": "Code",
+    "vMixer": "Mixer Volume",
+    "isWork": "Status",
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive"
+    }
+  },
+  "silCem": {
+    "create": "Create Silo",
+    "idBSU": "BSU",
+    "code": "Code",
+    "batcher": "Batcher Number",
+    "capacity": "Capacity, tons"
+  },
+  "customer": {
+    "title": "Customer",
+    "name": "Name",
+    "address": "Address",
+    "comment": "Comment"
+  },
+  "dispatcher": {
+    "title": "Create Dispatcher",
+    "name": "Name",
+    "code": "Code"
+  },
+  "car": {
+    "title": "Create Car",
+    "name": "Number",
+    "codeRFID": "RFID Code",
+    "maxVolume": "Maximum Volume"
+  },
+  "driver": {
+    "title": "Create Driver",
+    "name": "Name",
+    "codeRFID": "RFID Code",
+    "comment": "Comment"
+  },
+  "mixture": {
+    "title": "Create Mixture Type",
+    "name": "Name",
+    "code": "Code",
+    "shortName": "Short Name"
+  },
+  "recStrength": {
+    "title": "Create Strength Class",
+    "name": "Name",
+    "code": "Code"
+  },
+  "recMobility": {
+    "title": "Create Mobility",
+    "name": "Name",
+    "code": "Code"
+  },
+  "recFrost": {
+    "title": "Create Frost Resistance",
+    "name": "Name",
+    "code": "Code"
+  },
+  "recWat": {
+    "title": "Create Water Resistance",
+    "name": "Name",
+    "code": "Code"
+  },
+  "marka": {
+    "title": "Create Marka",
+    "name": "Name",
+    "code": "Code"
+  },
+  "recComment": {
+    "title": "Create Condition",
+    "name": "Name"
+  },
+  "recComp": {
+    "titleCreate": "Create BSiKR component",
+    "idCodeRecipe": "Mixture code id",
+    "enterIdCodeRecipe": "Enter mixture code id",
+    "idCodeComp": "Component code id",
+    "enterIdCodeComp": "Enter component code id",
+    "weightCompS": "Weight comp S",
+    "enterWeightCompS": "Enter weight comp S",
+    "weightCompW": "Weight comp W",
+    "enterWeightCompW": "Enter weight comp W"
+  },
+  "compType": {
+    "title": "Component Types",
+    "name": "Name",
+    "code": "Code"
+  },
+  "comp": {
+    "title": "Components",
+    "componentTypes": "Component Types",
+    "name": "Name",
+    "code": "Code",
+    "typeCode": "Code"
+  },
+  "compFilters": {
+    "water": "Water",
+    "chemicals": "Chemicals",
+    "aggregate": "Aggregate",
+    "cement": "Cement"
+  },
+  "compDirectory": {
+    "componentTypes": "Component Types",
+    "components": "Components"
+  },
+  "RecipeHeader": {
+    "strength": "Strength",
+    "mobil": "Plasticity",
+    "frost": "Frost Resistance",
+    "water": "Water Resistance",
+    "marka": "Marka",
+    "condition": "Conditions",
+    "date": "Date",
+    "season": "Season",
+    "comment": "Comment"
+  },
+  "recipe": {
+    "titleCreate": "Create recipe",
+    "enterDate": "Enter date",
+    "enterSeason": "Enter season",
+    "enterComment": "Enter comment",
+    "export": "Export",
+    "import": "Import"
+
+  },
+  "recipeManager": {
+    "mixtureType": "Mixture type",
+    "mixtureShort": "Mix",
+    "strength": "Strength",
+    "mobility": "Mobility",
+    "frost": "Frost resistance",
+    "waterResistance": "Water resistance",
+    "marka": "Marka",
+    "conditions": "Conditions",
+    "code": "Code",
+    "enterConditions": "Enter conditions",
+    "enterCode": "Enter code"
+  },
+  "recipeTable": {
+    "allClasses": "All classes",
+    "code": "Code",
+    "name": "Name",
+    "date": "Date"
+  },
+  "recipeDescription": {
+    "fillers": "Fillers",
+    "cement": "Cement",
+    "water": "Water",
+    "chemAdditives": "Liquid chemical additives",
+    "mixer": "Mixer",
+    "maxMixerVolume": "Max. mixer volume",
+    "mixingTime": "Mixing time",
+    "openTime50": "Open time at 50%",
+    "openTime75": "Open time at 75%",
+    "fullOpenTime": "Full open time",
+    "sum": "Sum",
+    "winter": "Winter",
+    "summer": "Summer",
+    "totalWeight": "Total weight",
+    "selectValue": "Select a value",
+    "fillWinterOrSummer": "Fill winter or summer",
+    "units": {
+      "kg": "kg",
+      "m3": "m³",
+      "sec": "sec",
+      "percent": "%"
+    }
+  },
+  "Users": {
+    "name": "Name",
+    "login": "Login",
+    "password": "Password",
+    "role": "Role",
+    "roleFallback": "Role",
+    "users": "Users",
+    "authorization": "Authorization",
+    "logout": "Logout",
+    "userFallback": "User",
+    "enter": "Enter",
+    "createUser": "Create user",
+    "phone": "Phone",
+    "confirmation": "Confirmation",
+    "enterConfirmation": "Enter confirmation code",
+    "accept": "Accept",
+    "loginPlaceholder": "Login",
+    "passwordPlaceholder": "Password",
+    "editUser": "Edit user"
+
+
+
+  }
+}

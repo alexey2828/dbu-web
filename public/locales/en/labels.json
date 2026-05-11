@@ -1,0 +1,17 @@
+{
+  "dateStart": "From",
+  "dateFinish": "To",
+  "idPlant": "Plant",
+  "idCustomer": "Customer",
+  "dispatcher": "Dispatcher",
+  "nameRecipe": "Recipe Name",
+  "classRecipe": "Mixture Types",
+  "vOrder": "Volume",
+  "fromObject": "To Object",
+  "toObject": "From Object",
+  "distance": "Distance",
+  "delivery": "Delivery",
+  "interval": "Interval",
+  "general": "General"
+}
+

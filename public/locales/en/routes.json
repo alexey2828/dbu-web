@@ -1,0 +1,28 @@
+{
+  "ordersPage": "Sales of goods and services",
+  "createEditOrder": "Order details",
+  "createOrder": "Create order",
+  "reportsPage": "Product reports",
+  "weighingReportsPage": "Weighing",
+  "carDirectory": "Car directory",
+  "driverDirectory": "Driver directory",
+  "plantsDirectory": "Plant directory",
+  "customerDirectory": "Customer directory",
+  "bsuDirectory": "Concrete mixing unit directory",
+  "silCemDirectory": "Silo directory",
+  "productDirectory": "Product directory",
+  "reportCurrentLoopDirectory": "Report directory for each cycle",
+  "reportWeightManualDirectory": "Manual report directory for each cycle",
+  "mixtureDirectory": "Mixture types directory",
+  "recCompDirectory": "BSiKR components directory",
+  "recFrostDirectory": "Recipe frost resistance directory",
+  "recMobilityDirectory": "Recipe mobility directory",
+  "recStrengthDirectory": "Recipe class, strength directory",
+  "recWatDirectory": "Recipe waterproofing directory",
+  "recipeDirectory": "Recipe directory",
+  "compDirectory": "Components directory",
+  "dispatcherDirectory": "Dispatcher directory",
+  "markaDirectory": "Marka directory",
+  "recCommentDirectory": "Conditions directory"
+}
+

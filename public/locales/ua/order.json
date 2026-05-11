@@ -1,0 +1,10 @@
+{
+  "vOrder": "V-загальний",
+  "ttnVProductSumCreated": "V-всього ТТН",
+  "ttnVProductSum": "V-відвантажений",
+  "remainingVolume": "V-залишок",
+  "orderList": "Список замовлень",
+  "statusHistory": "Історія статусу Замовлення",
+  "numberPrefix": " № ГБ00_"
+}
+

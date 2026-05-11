@@ -1,0 +1,33 @@
+import {AppRoutes} from "./const";
+
+export const RoutePath: Record<AppRoutes, string> = {
+    [AppRoutes.ORDERS_PAGE]: '/',
+    [AppRoutes.CREATE_EDIT_ORDER]: `/create-edit-order/:id?`,
+    [AppRoutes.REPORTS_PAGE]: `/reports`,
+    [AppRoutes.CAR_DIRECTORY]: '/car-directory',
+    [AppRoutes.DRIVER_DIRECTORY]: '/driver-directory',
+    [AppRoutes.PLANTS_DIRECTORY]: '/plants-directory',
+    [AppRoutes.CUSTOMER_DIRECTORY]: '/customer-directory',
+    [AppRoutes.BSU_DIRECTORY]: '/bsu-directory',
+    [AppRoutes.SIL_CEM_DIRECTORY]: '/sil-cem-directory',
+    [AppRoutes.PRODUCT_DIRECTORY]: '/product-directory',
+    [AppRoutes.REPORT_CURRENT_LOOP_DIRECTORY]: '/report-current-loop-directory',
+    [AppRoutes.REPORT_WEIGHT_MANUAL_DIRECTORY]: '/report-weight-manual-directory',
+    [AppRoutes.MIXTURE_DIRECTORY]: '/mixture-directory',
+    [AppRoutes.REC_COMP_DIRECTORY]: '/rec-comp-directory',
+    [AppRoutes.REC_FROST_DIRECTORY]: '/rec-frost-directory',
+    [AppRoutes.REC_MOBILITY_DIRECTORY]: '/rec-mobility-directory',
+    [AppRoutes.REC_STRENGTH_DIRECTORY]: '/rec-strength-directory',
+    [AppRoutes.REC_WAT_DIRECTORY]: '/rec-wat-directory',
+    [AppRoutes.RECIPE_DIRECTORY]: '/recipe-directory',
+    [AppRoutes.COMP_DIRECTORY]: '/comp-directory',
+    [AppRoutes.DISPATCHER_DIRECTORY]: '/dispatcher-directory',
+    [AppRoutes.MARKA_DIRECTORY]: '/marka-directory',
+    [AppRoutes.REC_COMMENT_DIRECTORY]: '/rec-comment-directory',
+    [AppRoutes.WEIGHING_REPORTS_PAGE]: '/weighing-reports',
+    [AppRoutes.LOGIN_PAGE]: '/login',
+    [AppRoutes.USERS_DIRECTORY]: '/users-directory',
+    [AppRoutes.VERIFY_CODE]: '/verify-code',
+    [AppRoutes.PRODUCTION_ANALYSIS]: '/production-analysis',
+
+};

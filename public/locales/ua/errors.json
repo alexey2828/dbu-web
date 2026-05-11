@@ -1,0 +1,15 @@
+{
+  "required": "Поле обов'язкове",
+  "general": "Щось пішло не так",
+  "success": "Все пройшло успішно",
+  "exceededOrderVolume": "Перевищено обсяг замовлення",
+  "emptyBsu": "Поле БСВ не може бути порожнім",
+  "exceededCarVolume": "Перевищено обсяг машини",
+  "bothStartEndRequired": "Потрібно вказати обидві дати: початок та кінець",
+  "atLeastOneField": "Потрібно заповнити хоча б одне поле",
+  "codeExists": "Код вже існує",
+  "invalidLoginOrPassword": "Невірний логін або пароль",
+  "invalidCode": "Невірний код",
+  "requiredField": "Це поле обов'язкове"
+}
+

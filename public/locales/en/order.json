@@ -1,0 +1,10 @@
+{
+  "vOrder": "V-total",
+  "ttnVProductSumCreated": "V-total TTN",
+  "ttnVProductSum": "V-shipped",
+  "remainingVolume": "V-remaining",
+  "orderList": "Orders list",
+  "statusHistory": "Order Status History",
+  "numberPrefix": " № GB00_"
+}
+

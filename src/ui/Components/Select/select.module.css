@@ -1,0 +1,8 @@
+@tailwind utilities;
+.Select {
+  @apply bg-gray-50 border border-gray-300 text-gray-900
+  text-base rounded-lg focus:ring-blue-500 focus:border-blue-500 block
+  py-2 pl-1 pr-8;
+}
+
+/*# sourceMappingURL=select.module.css.map */
