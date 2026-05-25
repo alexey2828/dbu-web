@@ -1,0 +1,12 @@
+.sub_order {
+  @apply border-t border-gray-200 font-bold text-xl
+}
+
+.orderFilterModal_form {
+  @apply grid grid-cols-3 gap-5 px-5
+}
+
+.orderFilterModal_form_buttons_container {
+  @apply gap-3 flex justify-center mt-5
+}
+

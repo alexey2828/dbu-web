@@ -1,0 +1,499 @@
+{
+  "general": {
+    "reports": "Звiти",
+    "sales": "Реалізація товарів і послуг",
+    "date": "Дата",
+    "time": "Час",
+    "search": "Пошук",
+    "create": "Створити",
+    "role": "Роль",
+    "save": "Зберегти",
+    "moveTo": "Перейти",
+    "display": "Відобразити",
+    "dbu": "ДБУ",
+    "shortName": "Коротка назва",
+    "developed": "Додаток розроблено OOO ASA",
+    "loading": "Завантаження..."
+  },
+  "departments": {
+    "sales": "Відділ реалізації продукції",
+    "customers": "Замовники",
+    "products": "Продукти",
+    "dispatcher": "Диспетчери"
+  },
+  "production": {
+    "preProd": "Відділ підготовки виробництва",
+    "plants": "Цеха",
+    "machines": "Машини",
+    "drivers": "Водії"
+  },
+  "tech": {
+    "techDept": "Відділ головного технолога",
+    "mixtures": "Види сумішей",
+    "strength": "Клас, міцність",
+    "mobility": "Пластичність",
+    "frost": "Морозостійкість",
+    "water": "Водонепроникність",
+    "marka": "Марка",
+    "conditions": "Умови",
+    "components": "Компоненти",
+    "recipes": "Рецепти"
+  },
+  "routes": {
+    "ordersPage": "Реалізація товарів і послуг",
+    "createEditOrder": "Деталі замовлення",
+    "createOrder": "Створення замовлення",
+    "reportsPage": "Звіти по продукції",
+    "weighingReportsPage": "Вагова",
+    "carDirectory": "Довідник машин",
+    "driverDirectory": "Довідник водіїв",
+    "plantsDirectory": "Довідник цехів",
+    "customerDirectory": "Довідник замовників",
+    "bsuDirectory": "Довідник бетонозмішувальних вузлів",
+    "silCemDirectory": "Довідник силосів",
+    "productDirectory": "Довідник продуктів",
+    "reportCurrentLoopDirectory": "Довідник звітів по заявці по кожному циклу",
+    "reportWeightManualDirectory": "Довідник звітів по заявці по кожному циклу в ручному режимі",
+    "mixtureDirectory": "Довідник видів сумішей",
+    "recCompDirectory": "Довідник компонентів БСіКР",
+    "recFrostDirectory": "Довідник морозостійкості рецепту",
+    "recMobilityDirectory": "Довідник пластичності рецепту",
+    "recStrengthDirectory": "Довідник класу, міцності рецепту",
+    "recWatDirectory": "Довідник водонепроникності рецепту",
+    "recipeDirectory": "Довідник рецептів",
+    "compDirectory": "Довідник компонентів",
+    "dispatcherDirectory": "Довідник диспетчерів",
+    "markaDirectory": "Довідник марок",
+    "recCommentDirectory": "Довідник умов"
+  },
+  "modals": {
+    "create": "Створити",
+    "apply": "Застосувати",
+    "clear": "Очистити",
+    "close": "Закрити",
+    "confirmAction": "Підтвердити дію?",
+    "confirm": "Підтвердити",
+    "back": "Назад",
+    "saveAndClose": "Записати і закрити",
+    "save": "Записати",
+    "delete": "Видалити",
+    "edit": "Редагувати"
+  },
+  "labels": {
+    "dispatcher": "Диспетчер",
+    "nameRecipe": "Назва рецепта",
+    "idCustomer": "Замовник",
+    "classRecipe": "Види сумішей",
+    "vOrder": "Обсяг",
+    "idPlant": "Цех",
+    "fromObject": "До об'єкта",
+    "toObject": "Від об'єкта",
+    "distance": "Відстань",
+    "delivery": "Доставка",
+    "dateStart": "З",
+    "dateFinish": "До",
+    "interval": "Інтервал",
+    "general": "Загальнi"
+  },
+  "placeholders": {
+    "enterPlant": "Введіть цех",
+    "enterCustomer": "Введіть замовника",
+    "enterDispatcher": "Введіть диспетчера",
+    "enterRecipe": "Введіть назву рецепта",
+    "enterClassRecipe": "Введіть вид суміші",
+    "enterVolume": "Введіть обсяг",
+    "enterDistanceTo": "Введіть відстань до",
+    "enterDistanceFrom": "Введіть відстань від",
+    "enterInterval": "Введіть інтервал",
+    "finishAdress": "Введіть кінцеву адресу",
+    "vProduct": "Введіть обсяг",
+    "enterPlantCode": "Введіть код цеху",
+    "enterPlantName": "Введіть назву цеху",
+    "enterComment": "Введіть коментар",
+    "enterBsuName": "Введіть назву БСВ",
+    "enterBsuCode": "Введіть код БСВ",
+    "enterMixerVolume": "Введіть обсяг міксера",
+    "enterCode": "Введіть код",
+    "enterBatcher": "Введіть номер шнека",
+    "enterCapacity": "Введіть місткість",
+    "enterName": "Введіть ім'я",
+    "enterAddress": "Введіть адресу",
+    "enterCarNumber": "Введіть номер",
+    "enterRFID": "Введіть код RFID",
+    "enterMaxVolume": "Введіть максимальний обсяг",
+    "enterDriverName": "Введіть ім'я водія",
+    "enterMixtureName": "Введіть повну назву",
+    "enterShortName": "Введіть коротку назву",
+    "enterTypeCode": "Введіть код"
+  },
+  "orderTableHeaders": {
+    "idCustomer": "Замовник",
+    "number": "Номер замовлення",
+    "dispatcher": "Диспетчер",
+    "dateCreate": "Дата створення",
+    "nameRecipe": "Назва рецепта",
+    "vOrder": "Обсяг",
+    "state": "Статус",
+    "adress": "Цех"
+  },
+  "errors": {
+    "required": "Поле обов'язкове",
+    "general": "Щось пішло не так",
+    "success": "Все пройшло успішно",
+    "exceededOrderVolume": "Перевищено обсяг замовлення",
+    "emptyBsu": "Поле БСВ не може бути порожнім",
+    "exceededCarVolume": "Перевищено обсяг машини",
+    "bothStartEndRequired": "Потрібно вказати обидві дати: початок та кінець",
+    "atLeastOneField": "Потрібно заповнити хоча б одне поле",
+    "codeExists": "Код вже існує",
+    "invalidLoginOrPassword": "Невірний логін або пароль",
+    "invalidCode": "Невірний код",
+    "requiredField": "Це поле обов'язкове"
+  },
+  "order": {
+    "vOrder": "V-загальний",
+    "ttnVProductSumCreated": "V-всього ТТН",
+    "ttnVProductSum": "V-відвантажений",
+    "remainingVolume": "V-залишок",
+    "orderList": "Список замовлень",
+    "statusHistory": "Історія статусу Замовлення",
+    "numberPrefix": " № ГБ00_"
+  },
+  "ttn": {
+    "list": "Список ТТН",
+    "statusHistory": "Історія статусу ТТН",
+    "control": {
+      "manage": "Керування",
+      "create": "Створити",
+      "edit": "Редагувати"
+    },
+    "sort": {
+      "sortByDate": "Сортувати за датою",
+      "descending": "За спаданням дати",
+      "ascending": "За зростанням дати"
+    },
+    "notifications": {
+      "selectForEdit": "Оберіть ТТН для редагування"
+    },
+    "ttnHeaders": {
+      "id": "Номер заявки",
+      "car": "Машина",
+      "date": "Дата",
+      "dispatcher": "Диспетчер",
+      "driver": "Водій",
+      "finishAdress": "Адреса доставки",
+      "finishDate": "Час доставки",
+      "idPlant": "Цех",
+      "idState": "Стан",
+      "vProduct": "Обсяг"
+    }
+  },
+  "createRecipeNameModal": {
+    "title": "Створення назви рецепта",
+    "strength": "Міцність",
+    "marka": "Марка",
+    "mobility": "Рухливість",
+    "frost": "Морозостійкість",
+    "wat": "Водонепроникність",
+    "comment": "Коментар"
+  },
+  "ttnEditModal": {
+    "title": "ТТН для автомобіля",
+    "titleEditModal": "Редагувати ттн для автомобіля",
+    "dispatcher": "Диспетчер",
+    "car": "Машина",
+    "driver": "Водій",
+    "idPlant": "Цех",
+    "bsu": "БСВ",
+    "noBsu": "Немає БСВ в роботі",
+    "finishAdress": "Кінцева адреса",
+    "finishDate": "Час доставки",
+    "vProduct": "Обсяг м³",
+    "maxVolume": "Максимальний обсяг машини"
+  },
+  "reports": {
+    "startDate": "Дата закiнчення виробництва",
+    "from": "З",
+    "to": "До",
+    "order": "Замовлення",
+    "orderNumber": "Номер",
+    "plant": "Цех",
+    "plantName": "Назва",
+    "mixer": "Автоміксер",
+    "driver": "Водій",
+    "carNumber": "Номер",
+    "application": "Заявка",
+    "enterOrderNumber": "Введіть номер замовлення",
+    "selectValue": "Виберіть значення",
+    "number": "Номер",
+    "name": "Назва",
+    "bsu": "БЗВ",
+    "productTableHeaders": {
+      "dateStart": "Дата початку вир-ва",
+      "timeEnd": "Дата закінчення вир-ва",
+      "idPlant": "Цех",
+      "idTtn": "Номер заявки",
+      "car": "Машина",
+      "driver": "Водій",
+      "classRecipe": "Види сумішей",
+      "nameRecipe": "Найменування рецепта",
+      "vProduct": "V продукції, м³",
+      "loopNumber": "Кількість циклів",
+      "vLoop": "V циклу, м³",
+      "recipe": "Рецепт",
+      "timeStart": "Час початку вир-ва"
+    },
+    "currentLoopCalculateHeader": {
+      "code": "Матеріал",
+      "recipeSum": "Вага задана, кг",
+      "factSum": "Вага фактична, кг",
+      "completedProductVolume": "Заданий обсяг виконаної продукції.",
+      "totalVProductExpected": "Фактичний обсяг виконаної продукції."
+    },
+    "bsuBreakdown": {
+      "col1": "Колонка 1",
+      "col2": "Колонка 2",
+      "col3": "Колонка 3",
+      "col4": "Колонка 4",
+      "placeholderRow": "—"
+    },
+    "reportCar": {
+      "title": "По автомобілю",
+      "cycle": "Цикл",
+      "vCycle": "V циклу, м³",
+      "water": "Вода",
+      "liquidChemAdditive": "ЖХД",
+      "filler": "Заповнювач",
+      "cement": "Цемент",
+      "targetKg": "зад, кг",
+      "actualKg": "факт, кг",
+      "percentage": "%"
+    }
+  },
+  "plantsHeader": {
+    "codePlant": "Код цеху",
+    "name": "Назва цеху",
+    "comment": "Коментар",
+    "enterBsuName": "Введіть назву БСВ",
+    "enterBsuCode": "Введіть код БСВ",
+    "enterMixerVolume": "Введіть обсяг міксера"
+  },
+  "bsuHeader": {
+    "idPlant": "Цех",
+    "code": "Код",
+    "name": "Назва",
+    "vMixer": "Обсяг міксера",
+    "isWork": "Статус"
+  },
+  "silCemHeader": {
+    "idBSU": "Id БСВ",
+    "code": "Код",
+    "batcher": "Ном. шнека",
+    "capacity": "Місткість, т"
+  },
+  "plantsDirectory": {
+    "plants": "Цеха",
+    "bsu": "БСВ",
+    "silos": "Cилоси"
+  },
+  "plants": {
+    "create": "Створити цех",
+    "code": "Код цеху",
+    "name": "Назва цеху",
+    "comment": "Коментар"
+  },
+  "bsu": {
+    "create": "Створити бетоносмісний вузол",
+    "idPlant": "Цех",
+    "name": "Назва",
+    "code": "Код",
+    "vMixer": "Обсяг міксера",
+    "isWork": "Статус",
+    "status": {
+      "active": "В роботі",
+      "inactive": "Не в роботі"
+    }
+  },
+  "silCem": {
+    "create": "Створити силос",
+    "idBSU": "БСВ",
+    "code": "Код",
+    "batcher": "Номер шнека",
+    "capacity": "Місткість, т."
+  },
+  "customer": {
+    "title": "Замовник",
+    "name": "Ім'я",
+    "address": "Адреса",
+    "comment": "Коментар"
+  },
+  "dispatcher": {
+    "title": "Створити диспетчера",
+    "name": "Ім'я",
+    "code": "Код"
+  },
+  "car": {
+    "title": "Створити машину",
+    "name": "Номер",
+    "codeRFID": "Код RFID",
+    "maxVolume": "Максимальний обсяг"
+  },
+  "driver": {
+    "title": "Створити водія",
+    "name": "Ім'я",
+    "codeRFID": "Код RFID",
+    "comment": "Коментар"
+  },
+  "mixture": {
+    "title": "Створити вид сумішей",
+    "name": "Назва",
+    "code": "Код",
+    "shortName": "Коротка назва"
+  },
+  "recStrength": {
+    "title": "Створити клас міцності",
+    "name": "Назва",
+    "code": "Код"
+  },
+  "recMobility": {
+    "title": "Створити пластичність",
+    "name": "Назва",
+    "code": "Код"
+  },
+  "recFrost": {
+    "title": "Створити морозостійкість",
+    "name": "Назва",
+    "code": "Код"
+  },
+  "recWat": {
+    "title": "Створити водонепроникність",
+    "name": "Назва",
+    "code": "Код"
+  },
+  "marka": {
+    "title": "Створити марку",
+    "name": "Назва",
+    "code": "Код"
+  },
+  "recComment": {
+    "title": "Створити умову",
+    "name": "Назва"
+  },
+  "recComp": {
+    "titleCreate": "Створити компонент БСіКР",
+    "idCodeRecipe": "Id коду суміші",
+    "enterIdCodeRecipe": "Введіть id коду суміші",
+    "idCodeComp": "Id коду компонента",
+    "enterIdCodeComp": "Введіть id коду компонента",
+    "weightCompS": "Вага comp S",
+    "enterWeightCompS": "Введіть вагу comp S",
+    "weightCompW": "Вага comp W",
+    "enterWeightCompW": "Введіть вагу comp W"
+  },
+  "compType": {
+    "title": "Типи компонентів",
+    "name": "Назва",
+    "code": "Код"
+  },
+  "comp": {
+    "title": "Компоненти",
+    "componentTypes": "Види компонентів",
+    "name": "Назва",
+    "code": "Код",
+    "typeCode": "Код"
+  },
+  "compFilters": {
+    "water": "Вода",
+    "chemicals": "Хімікати",
+    "aggregate": "Заповнювач",
+    "cement": "Цемент"
+  },
+  "compDirectory": {
+    "componentTypes": "Типи компонентів",
+    "components": "Компоненти"
+  },
+  "RecipeHeader": {
+    "strength": "Міцність",
+    "mobil": "Пластичність",
+    "frost": "Морозостійкість",
+    "water": "Водонепроникність",
+    "marka": "Марка",
+    "condition": "Умови",
+    "date": "Дата",
+    "season": "Сезон",
+    "comment": "Коментар"
+  },
+  "recipe": {
+    "titleCreate": "Створити рецепт",
+    "enterDate": "Введіть дату",
+    "enterSeason": "Введіть сезон",
+    "enterComment": "Введіть коментар",
+    "export": "Експорт",
+    "import": "Iмпорт"
+  },
+  "recipeManager": {
+    "mixtureType": "Вид суміші",
+    "mixtureShort": "Мікст",
+    "strength": "Міцність",
+    "mobility": "Пластичність",
+    "frost": "Морозостійкість",
+    "waterResistance": "Водонепроникність",
+    "marka": "Марка",
+    "conditions": "Умови",
+    "code": "Код",
+    "enterConditions": "Введіть умови",
+    "enterCode": "Введіть код"
+  },
+  "recipeTable": {
+    "allClasses": "Всі класи",
+    "code": "Код",
+    "name": "Назва",
+    "date": "Дата"
+  },
+  "recipeDescription": {
+    "fillers": "Заповнювачі",
+    "cement": "Цемент",
+    "water": "Вода",
+    "chemAdditives": "Рідкі хім. добавки",
+    "mixer": "Змішувач",
+    "maxMixerVolume": "Макс. об'єм мішалки",
+    "mixingTime": "Час перемішування",
+    "openTime50": "Час відкриття на 50%",
+    "openTime75": "Час відкриття на 75%",
+    "fullOpenTime": "Час повного відкриття",
+    "sum": "Сума",
+    "winter": "Зима",
+    "summer": "Літо",
+    "totalWeight": "Загальна вага",
+    "selectValue": "Виберіть значення",
+    "fillWinterOrSummer": "Заповніть зиму або літо",
+    "units": {
+      "kg": "кг",
+      "m3": "м³",
+      "sec": "сек",
+      "percent": "%"
+    }
+  },
+  "Users": {
+    "name": "Ім'я",
+    "login": "Логiн",
+    "password": "Пароль",
+    "role": "Роль",
+    "roleFallback": "Роль",
+    "users": "Користувачi",
+    "authorization": "Авторизацiя",
+    "logout": "Вийти",
+    "userFallback": "Користувач",
+    "enter": "Увiйти",
+    "createUser": "Створити користувача",
+    "phone": "Телефон",
+    "confirmation": "Пiдтвердження",
+    "enterConfirmation": "Введiть код пiдтвердження",
+    "accept": "Пiдтвердити",
+    "loginPlaceholder": "Логiн",
+    "passwordPlaceholder": "Пароль",
+    "editUser": "Редагувати користувача"
+
+
+  }
+}

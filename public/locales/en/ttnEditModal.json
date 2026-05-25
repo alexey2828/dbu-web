@@ -1,0 +1,15 @@
+{
+  "title": "TTN for Vehicle",
+  "titleEditModal": "Edit TTN for Vehicle",
+  "dispatcher": "Dispatcher",
+  "car": "Car",
+  "driver": "Driver",
+  "idPlant": "Plant",
+  "bsu": "BSU",
+  "noBsu": "No BSU in operation",
+  "finishAdress": "Final Address",
+  "finishDate": "Delivery Time",
+  "vProduct": "Volume m³",
+  "maxVolume": "Maximum car volume"
+}
+

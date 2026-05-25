@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="graphics" />
+    <orderEntry type="module" module-name="modal-test" />
+    <orderEntry type="module" module-name="test-modal" />
+    <orderEntry type="module" module-name="spotify" />
+    <orderEntry type="module" module-name="rocket-analysis" />
+    <orderEntry type="module" module-name="user-notify-syst" />
+    <orderEntry type="module" module-name="user-noification-system-frontend" />
+    <orderEntry type="module" module-name="node" />
+    <orderEntry type="module" module-name="parse" />
+  </component>
+</module>

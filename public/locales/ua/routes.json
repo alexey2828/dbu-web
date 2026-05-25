@@ -1,0 +1,28 @@
+{
+  "ordersPage": "Реалізація товарів і послуг",
+  "createEditOrder": "Деталі замовлення",
+  "createOrder": "Створення замовлення",
+  "reportsPage": "Звіти по продукції",
+  "weighingReportsPage": "Вагова",
+  "carDirectory": "Довідник машин",
+  "driverDirectory": "Довідник водіїв",
+  "plantsDirectory": "Довідник цехів",
+  "customerDirectory": "Довідник замовників",
+  "bsuDirectory": "Довідник бетонозмішувальних вузлів",
+  "silCemDirectory": "Довідник силосів",
+  "productDirectory": "Довідник продуктів",
+  "reportCurrentLoopDirectory": "Довідник звітів по заявці по кожному циклу",
+  "reportWeightManualDirectory": "Довідник звітів по заявці по кожному циклу в ручному режимі",
+  "mixtureDirectory": "Довідник видів сумішей",
+  "recCompDirectory": "Довідник компонентів БСіКР",
+  "recFrostDirectory": "Довідник морозостійкості рецепту",
+  "recMobilityDirectory": "Довідник пластичності рецепту",
+  "recStrengthDirectory": "Довідник класу, міцності рецепту",
+  "recWatDirectory": "Довідник водонепроникності рецепту",
+  "recipeDirectory": "Довідник рецептів",
+  "compDirectory": "Довідник компонентів",
+  "dispatcherDirectory": "Довідник диспетчерів",
+  "markaDirectory": "Довідник марок",
+  "recCommentDirectory": "Довідник умов"
+}
+

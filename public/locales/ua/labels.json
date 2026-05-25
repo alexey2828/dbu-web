@@ -1,0 +1,17 @@
+{
+  "dispatcher": "Диспетчер",
+  "nameRecipe": "Назва рецепта",
+  "idCustomer": "Замовник",
+  "classRecipe": "Види сумішей",
+  "vOrder": "Обсяг",
+  "idPlant": "Цех",
+  "fromObject": "До об'єкта",
+  "toObject": "Від об'єкта",
+  "distance": "Відстань",
+  "delivery": "Доставка",
+  "dateStart": "З",
+  "dateFinish": "До",
+  "interval": "Інтервал",
+  "general": "Загальнi"
+}
+

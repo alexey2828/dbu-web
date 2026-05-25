@@ -1,0 +1,15 @@
+{
+  "required": "Field is required",
+  "general": "Something went wrong",
+  "success": "Everything went successfully",
+  "exceededOrderVolume": "Exceeded order volume",
+  "emptyBsu": "BSU field cannot be empty",
+  "exceededCarVolume": "Exceeded car volume",
+  "requiredField": "This field is required",
+  "bothStartEndRequired": "Both start and end times must be provided",
+  "atLeastOneField": "At least one field must be filled",
+  "codeExists": "Code already exists",
+  "invalidLoginOrPassword": "Invalid login or password",
+  "invalidCode": "Invalid code"
+}
+

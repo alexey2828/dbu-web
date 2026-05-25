@@ -1,0 +1,20 @@
+{
+  "name": "Name",
+  "login": "Login",
+  "password": "Password",
+  "role": "Role",
+  "roleFallback": "Role",
+  "users": "Users",
+  "authorization": "Authorization",
+  "logout": "Logout",
+  "userFallback": "User",
+  "loginPlaceholder": "Login",
+  "passwordPlaceholder": "Password",
+  "enter": "Enter",
+  "createUser": "Create user",
+  "phone": "Phone",
+  "confirmation": "Confirmation",
+  "enterConfirmation": "Enter confirmation code",
+  "accept": "Accept"
+}
+

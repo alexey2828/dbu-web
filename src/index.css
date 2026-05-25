@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+input::-ms-clear{
+  display: none;
+  width: 0;
+  height: 0;
+}
+input::-webkit-search-cancel-button{
+  display: none;
+}
+.react-tel-input .country-list {
+  position: fixed !important;
+  z-index: 9999 !important;
+}
+
+/* фикс позиции */
+.react-tel-input .flag-dropdown.open .country-list {
+  max-height: 300px;
+  overflow-y: auto;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.vertical-line {
+  border-left: 2px solid #3b82f6; /* Tailwind's blue-500 color */
+  height: 100%;
+  position: absolute;
+  left: 16px; /* Adjust this to position the line properly */
+  top: 25px;
+}
+
+.circle {
+  width: 12px;
+  height: 12px;
+  background-color: #3b82f6;
+  border-radius: 50%;
+  position: absolute;
+  left: 11px; /* Center the circle on the line */
+  top: 17px; /* Adjust to position the circle above the item */
+}
+
+.square {
+  width: 12px;
+  height: 12px;
+  background-color: #3b82f6;
+  position: absolute;
+  left: 11px;
+  top: 25px;
+
+}

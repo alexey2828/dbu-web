@@ -1,0 +1,52 @@
+{
+  "startDate": "Production End Date",
+  "from": "From",
+  "to": "To",
+  "order": "Order",
+  "orderNumber": "Number",
+  "plant": "Plant",
+  "plantName": "Name",
+  "mixer": "Mixer Truck",
+  "driver": "Driver",
+  "carNumber": "Number",
+  "application": "Application",
+  "enterOrderNumber": "Enter order number",
+  "selectValue": "Select a value",
+  "number": "Number",
+  "name": "Name",
+  "productTableHeaders": {
+    "dateStart": "Production Start Date",
+    "timeEnd": "Production End Date",
+    "idPlant": "Plant",
+    "idTtn": "Order Number",
+    "car": "Car",
+    "driver": "Driver",
+    "classRecipe": "Mix Types",
+    "nameRecipe": "Recipe Name",
+    "vProduct": "Product Volume, m³",
+    "loopNumber": "Number of Cycles",
+    "vLoop": "Cycle Volume, m³",
+    "recipe": "Recipe",
+    "timeStart": "Production Start Time"
+  },
+  "currentLoopCalculateHeader": {
+    "code": "Material",
+    "recipeSum": "Target Weight, kg",
+    "factSum": "Actual Weight, kg",
+    "completedProductVolume": "Actual volume of completed products",
+    "totalVProductExpected": "Specified volume of completed products"
+  },
+  "reportCar": {
+    "title": "By Car",
+    "cycle": "Cycle",
+    "vCycle": "V of cycle, m³",
+    "water": "Water",
+    "liquidChemAdditive": "LCA",
+    "filler": "Filler",
+    "cement": "Cement",
+    "targetKg": "target, kg",
+    "actualKg": "actual, kg",
+    "percentage": "%"
+  }
+}
+

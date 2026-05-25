@@ -1,0 +1,52 @@
+{
+  "startDate": "Дата початку виробництва",
+  "from": "З",
+  "to": "До",
+  "order": "Замовлення",
+  "orderNumber": "Номер",
+  "plant": "Цех",
+  "plantName": "Назва",
+  "mixer": "Автоміксер",
+  "driver": "Водій",
+  "carNumber": "Номер",
+  "application": "Заявка",
+  "enterOrderNumber": "Введіть номер замовлення",
+  "selectValue": "Виберіть значення",
+  "number": "Номер",
+  "name": "Назва",
+  "productTableHeaders": {
+    "dateStart": "Дата початку вир-ва",
+    "timeEnd": "Дата закінчення вир-ва",
+    "idPlant": "Цех",
+    "idTtn": "Номер заявки",
+    "car": "Машина",
+    "driver": "Водій",
+    "classRecipe": "Види сумішей",
+    "nameRecipe": "Найменування рецепта",
+    "vProduct": "V продукції, м³",
+    "loopNumber": "Кількість циклів",
+    "vLoop": "V циклу, м³",
+    "recipe": "Рецепт",
+    "timeStart": "Час початку вир-ва"
+  },
+  "currentLoopCalculateHeader": {
+    "code": "Матеріал",
+    "recipeSum": "Вага задана, кг",
+    "factSum": "Вага фактична, кг",
+    "completedProductVolume": "Заданий обсяг виконаної продукції.",
+    "totalVProductExpected": "Фактичний обсяг виконаної продукції."
+  },
+  "reportCar": {
+    "title": "По автомобілю",
+    "cycle": "Цикл",
+    "vCycle": "V циклу, м³",
+    "water": "Вода",
+    "liquidChemAdditive": "ЖХД",
+    "filler": "Заповнювач",
+    "cement": "Цемент",
+    "targetKg": "зад, кг",
+    "actualKg": "факт, кг",
+    "percentage": "%"
+  }
+}
+

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/beton.iml" filepath="$PROJECT_DIR$/.idea/beton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../SKIAK-grap/.idea/graphics.iml" filepath="$PROJECT_DIR$/../SKIAK-grap/.idea/graphics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../modal-test/.idea/modal-test.iml" filepath="$PROJECT_DIR$/../modal-test/.idea/modal-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../node/.idea/node.iml" filepath="$PROJECT_DIR$/../../node/.idea/node.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../parse/.idea/parse.iml" filepath="$PROJECT_DIR$/../parse/.idea/parse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../rocket-analysis/.idea/rocket-analysis.iml" filepath="$PROJECT_DIR$/../rocket-analysis/.idea/rocket-analysis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../spotify/.idea/spotify.iml" filepath="$PROJECT_DIR$/../spotify/.idea/spotify.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../test-modal/.idea/test-modal.iml" filepath="$PROJECT_DIR$/../test-modal/.idea/test-modal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../user-noification-system-frontend/.idea/user-noification-system-frontend.iml" filepath="$PROJECT_DIR$/../user-noification-system-frontend/.idea/user-noification-system-frontend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../user-notify-syst/.idea/user-notify-syst.iml" filepath="$PROJECT_DIR$/../user-notify-syst/.idea/user-notify-syst.iml" />
+    </modules>
+  </component>
+</project>

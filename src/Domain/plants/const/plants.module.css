@@ -1,0 +1,9 @@
+.work {
+  @apply text-green-700;
+}
+
+.dontWork {
+  @apply text-red-700;
+}
+
+/*# sourceMappingURL=plants.module.css.map */

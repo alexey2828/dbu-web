@@ -1,0 +1,20 @@
+{
+  "name": "Ім'я",
+  "login": "Логiн",
+  "password": "Пароль",
+  "role": "Роль",
+  "roleFallback": "Роль",
+  "users": "Користувачi",
+  "authorization": "Авторизацiя",
+  "logout": "Вийти",
+  "userFallback": "Користувач",
+  "loginPlaceholder": "Логiн",
+  "passwordPlaceholder": "Пароль",
+  "enter": "Увiйти",
+  "createUser": "Створити користувача",
+  "phone": "Телефон",
+  "confirmation": "Пiдтвердження",
+  "enterConfirmation": "Введiть код пiдтвердження",
+  "accept": "Пiдтвердити"
+}
+

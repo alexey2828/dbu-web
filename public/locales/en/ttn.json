@@ -1,0 +1,30 @@
+{
+  "list": "TTN List",
+  "statusHistory": "TTN Status History",
+  "control": {
+    "manage": "Manage",
+    "create": "Create",
+    "edit": "Edit"
+  },
+  "sort": {
+    "sortByDate": "Sort by date",
+    "descending": "Descending date",
+    "ascending": "Ascending date"
+  },
+  "notifications": {
+    "selectForEdit": "Select a TTN for editing"
+  },
+  "ttnHeaders": {
+    "id": "Request Number",
+    "car": "Car",
+    "date": "Date",
+    "dispatcher": "Dispatcher",
+    "driver": "Driver",
+    "finishAdress": "Delivery Address",
+    "finishDate": "Delivery Time",
+    "idPlant": "Plant",
+    "idState": "State",
+    "vProduct": "Volume"
+  }
+}
+

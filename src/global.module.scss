@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+td {
+  @apply px-6 py-1
+}
+th {
+  @apply px-6 py-3
+}
+
+thead {
+  @apply text-xs text-gray-700 uppercase bg-gray-300 sticky top-0
+}
+
+.indent_top{
+  @apply mt-5
+}
+
+.container {
+  @apply max-w-[98%] mx-auto
+}
+
+.flex_center {
+  @apply flex items-center
+}
+
+.flex_justify_center {
+  @apply flex justify-center items-center
+}
+
+.flex_justify_between {
+  @apply flex items-center justify-between
+}
+
+
+.input_width_40 {
+  @apply w-40
+}
+
+.input_width_full {
+  @apply w-full
+}
+
+.form_buttons_container {
+  @apply gap-3 flex items-center justify-center mt-5
+}
+
