@@ -43,4 +43,4 @@ export const getTtnStateColor = (state: number | undefined) => {
             return 'bg-[#CFF2FF] text-black'; // светло-голубой - выгружена БС на объекте
 
     }
-}
+} 
