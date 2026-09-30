@@ -1,6 +1,6 @@
 import type { TFunction } from 'i18next';
 
-type AnyRecord = Record<string, unknown>; 
+type AnyRecord = Record<string, unknown>;  
 
 /**
  * Единый хелпер для перевода ключей из enum/констант.
