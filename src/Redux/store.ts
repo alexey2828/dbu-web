@@ -1,4 +1,4 @@
-import {combineReducers, configureStore} from "@reduxjs/toolkit";
+import {combineReducers, configureStore} from "@reduxjs/toolkit"; 
 import {ttnAPI} from "../Infrastructure/services/TtnServices/TtnService";
 import {ttnStateAPI} from "../Infrastructure/services/TtnServices/TtnStateService";
 import {orderAPI} from "../Infrastructure/services/OrderServices/OrderService";
